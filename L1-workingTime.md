@@ -1,4 +1,4 @@
-## 📒 English
+## 📒 English 📒
 
 # 📝 Research: Labor Market and Digital Solutions
 
@@ -77,7 +77,7 @@ Because in these companies, code isn't just maintenance; it's the core of the bu
 **OpenAI:** It has exclusive knowledge. You work with technology that the rest of the world will only see in 6 months or a year.
 
 
-## 📕 Spanish
+## 📕 Spanish 📕
 
 # 📝 Investigación: Mercado Laboral y Soluciones Digitales
 
