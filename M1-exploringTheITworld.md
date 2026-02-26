@@ -1,4 +1,4 @@
-## English
+## 📒 English 📒
 
 # 📝 Research: Exploring the IT world
 
@@ -79,8 +79,7 @@ Here, the game changes. It's not just about writing code, but also making decisi
 **Banks and Consolidated Fintechs:** Where code security and robustness are critical.
 
 
-
-## Spanish
+## 📕 Spanish 📕
 
 # 📝 Investigación: Explorando el mundo TI
 
