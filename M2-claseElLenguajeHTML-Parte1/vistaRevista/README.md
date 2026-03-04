@@ -1,4 +1,4 @@
-## 📰 VISTA Magazine - Edición Digital
+## 📰 VISTA Magazine - Edición Digital 📰
 Bienvenido al repositorio de VISTA Magazine, un proyecto de maquetación web enfocado en la construcción de una revista digital estructurada con código limpio, accesible y semánticamente correcto.
 
 # 🎯 Objetivo del Proyecto
