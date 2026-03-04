@@ -1,3 +1,42 @@
+# VISTA Magazine - v1 Edition
+
+![Page VistaMagazine Version 1](./img/VistaMagazineV1.png)
+
+### 📒 English 📒
+
+## 📰 VISTA Magazine - Digital Edition 📰
+Welcome to the VISTA Magazine repository, a web design project focused on building a structured digital magazine with clean, accessible, and semantically correct code.
+
+# 🎯 Project Objective
+Develop the basic interface of an online magazine, strictly applying HTML5 standards and ensuring a clear information hierarchy for both users and search engines (SEO).
+
+### ✅ Compliance with Requirements
+The project fully complies with the requested rubric, implementing the following semantic tags:
+
+1. Header and Navigation (`<header>` and `<nav>`): The official "VISTA" logo has been integrated. It includes a main navigation menu with anchor links (without the default blue style) pointing to the key sections: News, Entertainment, and Lifestyle.
+
+2. Thematic Sections (`<section>`): The content is logically categorized using `<section>` tags, facilitating reading and the separation of topics within the main container.
+
+3. Individual Articles (`<article>`): Each publication functions as an independent block. It is internally structured with a main title (`<h2>`), author metadata, publication date, and a content excerpt with "Read more..." links.
+
+4. Sidebar (`<aside>`): A complementary column was implemented, designed to host valuable secondary content, such as lists of popular articles, upcoming events, and advertising spaces.
+
+5. Footer (`<footer>`): The closing section of the webpage includes direct contact information (mailto) and functional social media links.
+
+### 🧠 Architecture and Advanced Semantics
+To ensure the highest code quality, advanced semantic corrections were applied:
+
+Correct use of `<main>`: All core content (articles and sidebar) is enclosed within the `<main>` tag, clearly indicating the core of the webpage.
+
+Accessibility: The `lang="es"` attribute was defined in the `<html>` tag to optimize readability for browsers and screen readers.
+
+### 🛠️ Technology Stack
+HTML5: Web structuring and semantics.
+
+CSS3: (Under development) Typographic configuration, cleaning of hyperlink styles, and layout.
+
+### 📕 Spanish 📕
+
 ## 📰 VISTA Magazine - Edición Digital 📰
 Bienvenido al repositorio de VISTA Magazine, un proyecto de maquetación web enfocado en la construcción de una revista digital estructurada con código limpio, accesible y semánticamente correcto.
 
