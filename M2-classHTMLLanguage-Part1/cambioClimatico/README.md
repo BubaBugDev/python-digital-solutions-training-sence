@@ -1,69 +1,73 @@
-# VISTA Magazine - v1 Edition
+## Climate Change Web Page - v1 Edition
 
-![Page VistaMagazine Version 1](./img/VistaMagazineV1.png)
+![Page CambioClimatico Version 1](./img/cambioClimaticoV1.png)
 
 ### 📒 English 📒
 
-## 📰 VISTA Magazine - Digital Edition 📰
-Welcome to the VISTA Magazine repository, a web design project focused on building a structured digital magazine with clean, accessible, and semantically correct code.
+# 📰 Climate Change Awareness - Digital Edition 📰
+Welcome to the Climate Change Web Page repository, a web design challenge focused on applying HTML5 semantic tags to shape the main structure and content of a webpage.
 
-# 🎯 Project Objective
-Develop the basic interface of an online magazine, strictly applying HTML5 standards and ensuring a clear information hierarchy for both users and search engines (SEO).
+## 🎯 Project Objective
+Develop a structured webpage exposing the causes and effects of climate change, strictly applying HTML5 semantic tags to ensure a clear information hierarchy and content organization.
 
-### ✅ Compliance with Requirements
-The project fully complies with the requested rubric, implementing the following semantic tags:
+## ✅ Compliance with Requirements
+The project fully complies with the requested exercise, implementing the following semantic tags:
 
-1. Header and Navigation (`<header>` and `<nav>`): The official "VISTA" logo has been integrated. It includes a main navigation menu with anchor links (without the default blue style) pointing to the key sections: News, Entertainment, and Lifestyle.
+Header and Navigation (`<header>` and `<nav>`): Contains the main title "Cambio climático: Un desafío global". It includes a navigation menu with anchor links pointing to the different sections of the page.
 
-2. Thematic Sections (`<section>`): The content is logically categorized using `<section>` tags, facilitating reading and the separation of topics within the main container.
+Main Container (`<main>`): All core content regarding climate change is properly enclosed within the `<main>` tag.
 
-3. Individual Articles (`<article>`): Each publication functions as an independent block. It is internally structured with a main title (`<h2>`), author metadata, publication date, and a content excerpt with "Read more..." links.
+Thematic Sections (`<section>`): The content is logically categorized using `<section>` tags to separate the topics into two distinct blocks: "Causas" (Causes) and "Efectos" (Effects).
 
-4. Sidebar (`<aside>`): A complementary column was implemented, designed to host valuable secondary content, such as lists of popular articles, upcoming events, and advertising spaces.
+Headings and Paragraphs (`<h2>`, `<p>`): Used effectively to provide clear titles for each section and descriptive text explaining the complexities of climate change.
 
-5. Footer (`<footer>`): The closing section of the webpage includes direct contact information (mailto) and functional social media links.
+Lists (`<ul>`, `<ol>`, `<li>`): Both list types were successfully implemented. An unordered list (`<ul>`) details the causes, while an ordered list (`<ol>`) highlights the sequence or severity of the effects.
 
-### 🧠 Architecture and Advanced Semantics
-To ensure the highest code quality, advanced semantic corrections were applied:
+Footer (`<footer>`): The closing section of the webpage includes direct contact information using a functional mailto link.
 
-Correct use of `<main>`: All core content (articles and sidebar) is enclosed within the `<main>` tag, clearly indicating the core of the webpage.
+## 🧠 Architecture and Advanced Semantics
+To ensure good code quality, the following semantic elements were applied:
 
-Accessibility: The `lang="es"` attribute was defined in the `<html>` tag to optimize readability for browsers and screen readers.
+Correct use of `<main>`: Clearly separates the main informational content from the header and footer.
 
-### 🛠️ Technology Stack
+Accessibility & Language: The lang="en" attribute is defined in the `<html>` tag. (Note: Since your content is in Spanish, for future iterations it is semantically recommended to change this to lang="es" to optimize screen readers and SEO).
+
+## 🛠️ Technology Stack
 HTML5: Web structuring and semantics.
 
-CSS3: (Under development) Typographic configuration, cleaning of hyperlink styles, and layout.
+CSS3: (Linked via `<link rel="stylesheet" href="./css/styles.css">`) Ready for typographic configuration and layout styling.
 
 ### 📕 Spanish 📕
 
-## 📰 VISTA Magazine - Edición Digital 📰
-Bienvenido al repositorio de VISTA Magazine, un proyecto de maquetación web enfocado en la construcción de una revista digital estructurada con código limpio, accesible y semánticamente correcto.
+# 📰 Concientización sobre el Cambio Climático - Edición Digital 📰
+Bienvenido al repositorio de la página web sobre el Cambio Climático, un desafío de maquetación web enfocado en aplicar etiquetas semánticas de HTML5 para dar forma a la estructura principal y al contenido de la página.
 
-# 🎯 Objetivo del Proyecto
-Desarrollar la interfaz base de una revista online aplicando estrictamente los estándares de HTML5, garantizando una jerarquía de información clara tanto para los usuarios como para los motores de búsqueda (SEO).
+## 🎯 Objetivo del Proyecto
+Desarrollar una página web estructurada que exponga las causas y efectos del cambio climático, aplicando estrictamente etiquetas semánticas de HTML5 para garantizar una jerarquía de información clara y una correcta organización del contenido.
 
-### ✅ Cumplimiento de Requerimientos
-El proyecto cumple al 100% con la rúbrica solicitada, implementando las siguientes etiquetas semánticas:
+## ✅ Cumplimiento de Requerimientos
+El proyecto cumple al 100% con el ejercicio solicitado, implementando las siguientes etiquetas semánticas:
 
-1. Cabecera y Navegación (`<header>` y `<nav>`): Se integró el logotipo oficial "VISTA". Incluye un menú de navegación principal con enlaces ancla (sin el estilo azul por defecto) dirigidos a las secciones clave: Noticias, Entretenimiento y Estilo de vida.
+Cabecera y Navegación (`<header>` y `<nav>`): Contiene el título principal "Cambio climático: Un desafío global". Incluye un menú de navegación principal con enlaces ancla dirigidos a las diferentes secciones de la página.
 
-2. Secciones Temáticas (`<section>`): El contenido está categorizado lógicamente utilizando etiquetas `<section>`, facilitando la lectura y la separación de temáticas dentro del contenedor principal.
+Contenedor Principal (`<main>`): Todo el contenido central sobre el cambio climático está correctamente envuelto en la etiqueta `<main>`.
 
-3. Artículos Individuales (`<article>`): Cada publicación funciona como un bloque independiente. Se ha estructurado internamente con un título principal (`<h2>`), metadatos del autor, fecha de publicación y un extracto del contenido con enlaces de "Leer más...".
+Secciones Temáticas (`<section>`): El contenido está categorizado lógicamente utilizando etiquetas `<section>` para separar las temáticas en dos bloques distintos: "Causas" y "Efectos".
 
-4. Barra Lateral (`<aside>`): Se implementó una columna complementaria diseñada para alojar contenido secundario de valor, como listas de artículos populares, próximos eventos y espacios publicitarios.
+Encabezados y Párrafos (`<h2>`, `<p>`): Utilizados de manera efectiva para proporcionar títulos claros a cada sección y texto descriptivo que explica la complejidad del cambio climático.
 
-5. Pie de Página (`<footer>`): Cierre de la página web que incluye información de contacto directo (mailto) y enlaces de redes sociales funcionales.
+Listas (`<ul>`, `<ol>`, `<li>`): Se implementaron con éxito ambos tipos de listas. Una lista no ordenada (`<ul>`) detalla las causas, mientras que una lista ordenada (`<ol>`) destaca los efectos.
 
-### 🧠 Arquitectura y Semántica Avanzada
-Para asegurar la máxima calidad del código, se aplicaron correcciones semánticas avanzadas:
+Pie de Página (`<footer>`): El cierre de la página web incluye información de contacto directo utilizando un enlace mailto funcional.
 
-Uso correcto de `<main>`: Todo el contenido central (artículos y barra lateral) está envuelto en la etiqueta `<main>`, indicando claramente cuál es el núcleo de la página web.
+## 🧠 Arquitectura y Semántica Avanzada
+Para asegurar una buena calidad del código, se aplicaron los siguientes elementos semánticos:
 
-Accesibilidad: Se definió el atributo lang="es" en la etiqueta `<html>` para optimizar la lectura por parte de navegadores y lectores de pantalla.
+Uso correcto de `<main>`: Separa claramente el contenido informativo principal de la cabecera y el pie de página.
 
-### 🛠️ Stack Tecnológico
+Accesibilidad e Idioma: Se definió el atributo lang="en" en la etiqueta `<html>`. (Nota: Dado que tu contenido está en español, para futuras iteraciones es semánticamente recomendable cambiarlo a lang="es" para optimizar los lectores de pantalla y el SEO).
+
+## 🛠️ Stack Tecnológico
 HTML5: Estructuración y semántica web.
 
-CSS3: (En desarrollo) Configuración tipográfica, limpieza de estilos en hipervínculos y layout.
+CSS3: (Vinculado mediante `<link rel="stylesheet" href="./css/styles.css">`) Preparado para la configuración tipográfica y el diseño del layout.
