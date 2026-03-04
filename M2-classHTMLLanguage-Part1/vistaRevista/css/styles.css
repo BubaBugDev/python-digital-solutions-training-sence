@@ -1,0 +1,163 @@
+/* --- Global & Sticky Footer Setup --- */
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- Main Layout Containers --- */
+header {
+    flex-shrink: 0;
+    width: auto;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 2em;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 2em;
+    align-items: stretch;
+}
+
+.logo-header {
+    width: 8em;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-header img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar li {
+    display: flex;
+    align-items: center;
+}
+
+/* --- Main Content & Sidebar --- */
+.container {
+    display: flex;
+    align-items: flex-start; /* Aligns items to the top */
+    padding: 2em;
+    gap: 2em;
+    flex: 1 0 auto; /* This allows the container to grow and fill available space */
+}
+
+.main-content {
+    flex: 6;
+}
+
+.main-content article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2em;
+    margin-bottom: 2em; /* Space between articles */
+}
+
+.main-content article:last-child {
+    margin-bottom: 0;
+}
+
+.main-content article h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.autor {
+    margin-top: 0.5em;
+    color: #666;
+    font-size: 1em;
+}
+
+.data {
+    margin-top: 0.5em;
+    color: #666;
+    font-size: 1em;
+}
+
+
+.main-content article a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #c52d2f; /* Spidey-red */
+}
+
+.main-content article a:hover {
+    text-decoration: underline;
+}
+
+/* --- Header & Navbar --- */
+.sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 1.5em;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* --- Specific Element Styling --- */
+.sidebar h3 {
+    margin: 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 0.5em 0;
+    transition: color 0.2s ease-in-out;
+}
+
+.sidebar ul li a:hover {
+    color: #c52d2f;
+}
+
+/* --- Footer Styling --- */
+footer {
+    background-color: #333;
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    flex-shrink: 0; /* This prevents the footer from shrinking */
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
