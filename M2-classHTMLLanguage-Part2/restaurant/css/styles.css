@@ -1,0 +1,52 @@
+.libertinus-mono-regular {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  background-color: #f9faf4;
+  color: #474a2d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0 1em;
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+}
+
+.section-logo {
+  text-align: center;
+  padding: 0;
+}
+
+.section-logo img {
+  max-width: 50%;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.container-entradas {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
