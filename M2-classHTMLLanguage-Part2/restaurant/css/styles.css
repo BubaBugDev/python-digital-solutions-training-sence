@@ -22,7 +22,7 @@ header {
 }
 
 main {
-  padding: 2em;
+  padding: 0 2em;
 }
 
 .section-logo {
@@ -35,18 +35,56 @@ main {
   height: auto;
 }
 
-h2 {
+h2, h3 {
   text-align: center;
   color: #333;
 }
 
-.container-entradas {
+h3 {
+  color: #555;
+
+}
+
+.container-entradas, .container-platos, .container-postres {
   display: flex;
-  gap: 2em;
   flex-wrap: wrap;
-  flex-direction: row;
-  align-content: center;
+  gap: 1em;
   justify-content: center;
-  align-items: center;
-  padding: 2em;
+}
+
+.entrada, .plato, .postre {
+  width: 12.5rem;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.container-entradas img, .container-platos img, .container-postres img {
+  width: 12.5rem;
+  display: flex;
+  height: 12.5rem;
+  object-fit: cover;    
+  border-radius: 8px;
+}
+
+.entrada h3, .plato h3, .postre h3 {
+  margin: 1rem;
+  height: 2.5rem;
+  align-content: center;
+  text-align: center;
+}
+
+.entrada p, .plato p, .postre p {
+  margin: 1rem;
+  align-content: center;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  margin-top: 2rem;
+  text-align: center;
+  padding: 1em 0;
 }
